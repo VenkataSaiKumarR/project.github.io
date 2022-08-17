@@ -1,1 +1,575 @@
 
+* {
+  box-sizing: border-box;
+}
+
+/* elements */
+nav a {
+  font-size: 1.2em;
+  color: white;
+  padding-left: 20px;
+  text-decoration: none;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  background-color: #333;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+nav li {
+  list-style-type: none;
+}
+
+nav {
+  margin: 0;
+  border-bottom: 1px solid #9fb1bc;
+  line-height: 50px;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
+nav a {
+  font-size: 1.2em;
+}
+
+nav a:hover {
+  color: gainsboro;
+}
+
+h1,h2,h4 {
+    color: darkgoldenrod;
+}
+
+
+.party-header {
+        color: darkgoldenrod;
+    }
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 10px 10px;
+}
+
+th {
+  text-align: left;
+  background-color: lightgray;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+input[type="text"] {
+  width: 12em;
+  margin-left: 1em;
+  margin-bottom: 0.5em;
+}
+
+textarea {
+  width: 75%;
+  margin-left: 1em;
+  margin-bottom: 0.5em;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  float: left;
+  width: 11em;
+  text-align: right;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* ids */
+#wrapper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.remarks {
+  color: red;
+}
+
+#title {
+  font-family: "Arial", cursive;
+  text-align: center;
+  color: #8b4513;
+}
+a {
+    text-decoration: none;
+}
+
+#main-banner {
+  width: 100%;
+  height: auto;
+}
+#date,
+#time,
+#your-name,
+#your-email {
+  margin: 10px;
+}
+
+#date {
+  margin-left: 12px;
+}
+#count {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+/* Classes */
+.intro-left {
+  width: 30%;
+  height: auto;
+  float: left;
+  padding-left: 20px;
+  margin: 10px;
+}
+
+.intro-right {
+  width: 30%;
+  height: auto;
+  display: inline;
+  float: right;
+  padding-right: 20px;
+  margin: 10px;
+}
+
+.intro-data-right {
+  color: black;
+  font-family: sans-serif;
+  font-size: 1.3em;
+  padding-left: 100px;
+}
+
+.intro-data-left {
+  color: black;
+  font-family: sans-serif;
+  font-size: 1.3em;
+  padding-left: 20px;
+  margin: 20px;
+}
+
+.cnt {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.main-intro {
+  margin: 20px;
+  padding: 20px;
+}
+.data {
+  margin: 3px;
+}
+
+.theme-left {
+  float: left;
+  margin-right: 10px;
+}
+
+.theme-right {
+  float: right;
+}
+
+.subcription-list {
+  text-align: center;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.content {
+  padding-top: 20px;
+  text-align: center;
+  color: darkgoldenrod;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.menu-ro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 10px 10px 10px;
+}
+
+.lbl-name {
+  margin: 10px;
+}
+
+.col3 img {
+  width: 95%;
+  height: auto;
+}
+.col3 img:hover {
+  border: 1px solid #777;
+}
+
+div.desc {
+  padding: 1px;
+  text-align: center;
+  color: black;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+}
+/* .desc a{
+  text-decoration: none; } */
+
+.button {
+  margin: 0 auto;
+  display: block;
+  text-decoration: none;
+}
+
+.button {
+  background-color: rgb(92, 89, 91); /* light grey */
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: fuchsia;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 1px solid black;
+}
+
+.image-right {
+  width: 9%;
+  height: auto;
+  float: right;
+  margin: 10px;
+}
+
+.image-left {
+  width: 10%;
+  height: auto;
+  float: left;
+  margin: 10px;
+}
+
+.blog {
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.food_bloggers {
+  margin: 20px;
+  padding: 20px;
+}
+
+.bloggers {
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.user-data {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.btn,
+.btn-res {
+  color: Black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 190px;
+}
+
+.lbl-name {
+  display: block;
+}
+
+.input-res {
+  display: block;
+}
+
+.user_review {
+  margin-top: auto;
+  padding-left: 20px;
+}
+
+.content {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.review {
+  align-content: center;
+  display: inline-block;
+  padding-left: 20px;
+  width: 385px;
+  border: 1px solid black;
+}
+
+.username {
+  text-align: start;
+  margin-bottom: 0;
+}
+
+.checked {
+  color: orange;
+}
+
+.form-button {
+  margin-left: 14em;
+  width: 10em;
+}
+
+.content-left {
+  text-align: left;
+  padding-right: 100px;
+  margin: 10px;
+}
+
+.content-right {
+  text-align: left;
+  padding-left: 100px;
+  margin: 10px;
+}
+
+.reserve {
+  color: Black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.subcription-list p a img {
+  width: 15px;
+  height: 15px;
+}
+
+.subcription-list p {
+  text-align: right;
+  margin-top: 0;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+  #wrapper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  ul li {
+    border: 1px solid black;
+  }
+
+  .main-banner {
+    width: 90%;
+    height: auto;
+  }
+
+  .intro-left,
+  .intro-right {
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 0 0 10px 0;
+    margin: 0;
+  }
+
+  .intro-data-left,
+  .intro-data-right {
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border: 1px solid #ccc;
+  }
+
+  td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50px;
+  }
+
+  td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  .menu-ro {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h1,
+  h3,
+  p {
+    text-align: center;
+  }
+    
+h1,h2, h4 {
+        color: darkgoldenrod;
+    }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .bloggers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-left,
+  .image-right {
+    align-items: center;
+    width: fit-content;
+  }
+
+  .content-left,
+  .content-right {
+    padding: 10px;
+  }
+
+  .btn {
+    color: Black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    align-content: center;
+  }
+
+  form {
+    align-content: center;
+  }
+
+  label.form,
+  input.form,
+  textarea.form {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+  }
+
+  .lbl-name {
+    display: block;
+    text-align: left;
+  }
+  #date,
+  #your-name,
+  #your-email,
+  #time,
+  #count {
+    width: 90%;
+    margin: 10px;
+  }
+  #date {
+    margin: 12px;
+  }
+  .btn-res {
+    margin-left: 10px;
+  }
+
+  .party-header,
+  .party-desc {
+    margin: 10px;
+    text-align: left;
+  }
+    .party-header {
+        color: darkgoldenrod;
+    }
+  .theme-right {
+    margin-left: 10px;
+  }
+
+  .subcription-list p {
+    text-align: center;
+  }
+}
